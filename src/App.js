@@ -39,8 +39,8 @@ function App() {
           <Button className="bg-gray-300 px-1" value="x²" onClick={() => appendInput('**2')} />
           <Button className="bg-gray-300 px-1" value="1/x" onClick={() => appendInput('**(-1)')} />
           <Button className="bg-gray-300 px-1" value="|x|" onClick={() => handleUnaryOperation('Math.abs')} />
-          <Button className="bg-gray-300 px-1" value="exp" onClick={() => appendInput('Math.exp(')} />
-          <Button className="bg-gray-300 px-1" value="mod" onClick={() => appendInput('%')} />
+          <Button className="bg-gray-300 px-1" value="**" onClick={() => appendInput('Math.exp(')} />
+          <Button className="bg-gray-300 px-1" value="%" onClick={() => appendInput('%')} />
           <Button className="bg-gray-300 px-1" value="√" onClick={() => appendInput('Math.sqrt(')} />
           <Button className="bg-gray-300 px-1" value="(" onClick={() => appendInput('(')} />
           <Button className="bg-gray-300 px-1" value=")" onClick={() => appendInput(')')} />
